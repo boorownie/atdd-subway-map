@@ -23,6 +23,7 @@ public class LineAcceptanceTest extends AcceptanceTest {
     @Test
     void createLine() {
         // when
+
         // 지하철_노선_생성_요청
         Map<String, String> params = new HashMap<>();
         params.put("name", "신분당선");
